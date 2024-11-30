@@ -68,10 +68,4 @@ The project encourages students to reflect on:
 3. Run individual analysis scripts
 4. Generate visualizations and reports
 
-## Contributors
 
-[Your Names Here]
-
-## License
-
-[Specify your license, e.g., MIT License]
