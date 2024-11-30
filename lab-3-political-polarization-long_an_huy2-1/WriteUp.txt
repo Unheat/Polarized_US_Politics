@@ -1,0 +1,56 @@
+## Lab 0: Intro to Physical Computing 
+### Reflection
+
+### Authors: Long Ta
+
+
+### Overview
+This project explores political polarization in the U.S. Congress by analyzing roll-call voting data over the past two decades. Our goal was to determine trends in party-line voting, identify patterns of polarization, and visualize the results. Using Python, we developed a series of functions to analyze voting behavior, calculate the fraction of party-line votes, and generate plots that depict polarization trends over time.
+
+### Solution
+Step 1: Data Analysis Functions
+- We implemented a function, countVotesByParty, to parse XML files and count votes by Democrats and Republicans for each roll-call vote.
+Another function, isPartyLine, determined whether a vote was a party-line vote.
+Step 2: Polarization Over Time
+- Using countPartyLine, we calculated the fraction of party-line votes for each year from 2004 to 2023, analyzing up to 450 votes per year.
+The plotPartyLine function generated a graph to visualize these trends over time.
+Step 3: State-Level Analysis
+- The stateDivide function examined state-level representation, showing the number of Democratic and Republican representatives over the past 20 years.
+Step 4: Writeup and Validation
+- We compared our results with external news reports and conducted an ethical reflection on the implications of our findings.
+
+### Challenges
+- Data Retrieval: Fetching roll-call vote data for 20 years with up to 450 votes per year was time-consuming. To address this, we added error handling and cached downloaded files to avoid repeated requests.
+- Edge Cases in Data: Some votes were recorded as "Present" or "Not Voting," which required us to filter these cases carefully.
+- Time Management: Coordinating tasks among team members and ensuring all deliverables were completed on time required careful planning and communication.
+- Plotting Issues: Ensuring clarity in our visualizations, such as formatting year labels as integers, took additional debugging.
+
+### Achievements
+- Successfully implemented functions that accurately identify party-line votes and analyze trends over time.
+- Generated clear and insightful plots that reveal the growing trend of polarization in Congress.
+- Provided a detailed state-level analysis of representation changes for five different states.
+- Completed a comprehensive and ethical analysis, comparing our results with real-world observations.
+
+### Takeaways
+- Technical Skills: We gained proficiency in XML parsing, data visualization using Matplotlib, and working with Python’s built-in functions for efficient analysis.
+- Collaboration: This project reinforced the importance of teamwork and communication to divide and conquer complex tasks effectively.
+- Insight into Polarization: Our analysis revealed a noticeable increase in party-line votes over the past 20 years, reflecting heightened polarization in Congress.
+- Time Management: Balancing coding, testing, and documentation within the project deadline taught us to prioritize tasks effectively.
+
+### Ethical Reflection
+While this analysis highlights critical trends in political polarization, it also raises ethical considerations:
+- Potential Benefits:
++ Our findings can inform academic research on polarization and its impact on governance.
++ Visualizing trends may encourage lawmakers and citizens to address increasing division.
+- Potential Risks:
++ Misinterpreting the data could lead to unfounded conclusions about specific parties or policies.
++ Sharing such analyses publicly could contribute to further polarization if taken out of context.
+- Best Practices:
++ Ensure transparency in methodology and assumptions.
++ Present results objectively, avoiding partisan bias.
++ Highlight limitations of the data and analysis.
+
+### Contribution Statement
+- An has strong programming skills in Python, so she will focus on coding tasks.
+- Long is good at data visualization and will lead in creating plots and graphs.
+- Huy is detail-oriented and will handle documentation and ensure adherence to project requirements.
